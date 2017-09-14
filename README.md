@@ -9,7 +9,7 @@
 [![NPM downloads][npm-dl-img]][npm-url]
 [![NPM license][npm-lc-img]][npm-url]
 
-🤘Handsome Stylelint config. Enforces strict and readable code.🤘
+🤘Handsome stylelint config. Enforces strict and readable code.🤘
 
 ## Rules
 
@@ -28,7 +28,7 @@ npm i stylelint-config-handsome --save-dev
 By yarn:
 
 ```shell
-yarn add -D stylelintrc-config-handsome
+yarn add -D stylelint-config-handsome
 ```
 
 ## Usage
