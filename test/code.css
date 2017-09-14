@@ -1,0 +1,8 @@
+.foo {
+	margin: 0;
+}
+
+.foo > .bar {
+	text-align: center;
+	background-image: url("img-path.png");
+}

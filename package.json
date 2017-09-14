@@ -1,0 +1,51 @@
+{
+  "name": "stylelint-config-handsome",
+  "version": "0.1.0",
+  "description": "Handsome stylelint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint -c .eslintrc.yml .",
+    "ut": "./node_modules/.bin/ava test/test.js",
+    "test": "npm run eslint && npm run ut",
+    "cov": "./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinlp/stylelint-config-handsome.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "quality",
+    "check",
+    "checker",
+    "code",
+    "style",
+    "lint",
+    "linter",
+    "hint",
+    "hinter",
+    "enforce",
+    "handsome"
+  ],
+  "author": "PoppinL <poppinlp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppinlp/stylelint-config-handsome/issues"
+  },
+  "homepage": "https://github.com/poppinlp/stylelint-config-handsome#readme",
+  "peerDependencies": {
+    "stylelint": ">= 8"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "ava": "0.22.0",
+    "coveralls": "2.13.1",
+    "eslint": "4.6.1",
+    "eslint-config-handsome": "0.2.5",
+    "nyc": "11.2.1",
+    "stylelint": "8.1.1"
+  }
+}
