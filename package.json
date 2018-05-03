@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-handsome",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Handsome stylelint shareable config",
   "main": "index.js",
   "scripts": {
