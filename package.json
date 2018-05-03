@@ -38,7 +38,7 @@
     "stylelint": ">= 8"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "devDependencies": {
     "ava": "^0.25.0",
