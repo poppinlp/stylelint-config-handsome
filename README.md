@@ -82,6 +82,7 @@ Use this in one of your projects? Include one of these badges in your README fil
 
 ## History
 
+- 0.2.1: Update dependencies
 - 0.1.0: Init version
 
 [stylelint-shareable-config]:http://stylelint.org/docs/developer-guide/shareable-configs
